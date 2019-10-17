@@ -2,7 +2,7 @@
 # Add  code here!
 def prime?(num)
 
-  new_array = (2..num/2).to_a  
+  new_array = (2..num - 1).to_a  
     if num <= 1 
       return false 
     end
