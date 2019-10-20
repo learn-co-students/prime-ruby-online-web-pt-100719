@@ -4,4 +4,5 @@ def prime?(num)
     else
         divisors=*(2..num-1)
         divisors.all? {|i| num % i != 0}
+    end
 end
